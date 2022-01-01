@@ -1,3 +1,7 @@
-# scroll-wheel-pi-pico
+# Scroll-Wheel-Pi-Pico
 Simple program used to make a rotary encoder function as a scroll wheel using a raspberry pi pico.
-This program was used to allow using a rotary encoder to function as a scroll wheel because why not.
+
+## Infromation of code
+The encoder is programmed with Circuitpython for Pi Pico and uses the Adafruit_hid library.
+The class used from the library was the Mouse class that created functions of a mouse scrolling and clicking. 
+
